@@ -3,8 +3,8 @@ homebridge-S7
 
 Use a Siemens S7 PLC for switch on whatever you want.
 
-Plugin used for writing this one [homebridge-script2](https://github.com/pponce/homebridge-script2)
-Original plugin [homebridge-script](https://github.com/xxcombat/homebridge-script).
+The plugin that this one is based on: [homebridge-script2](https://github.com/pponce/homebridge-script2).
+Original plugin: [homebridge-script](https://github.com/xxcombat/homebridge-script).
 
 ## Installation
 (Requires node >=6.0.0)
