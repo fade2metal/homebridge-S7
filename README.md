@@ -39,6 +39,6 @@ Name | Value | Required | Notes
 ```
 #### Notes
 ##### Using the above configuration as an example:
-- The on_value in this case is used to match against the state script output. If the value matches the output of the state script the accessory is determined to be on.
+- The on_value is used to match against the state script output. If the value matches the output of the state script the accessory is determined to be on.
 - The ip has to be set to the IP of your PLC
 - The operator can be set to any QX Output of your PLC or to every MX Memory bit.
