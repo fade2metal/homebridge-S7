@@ -1,0 +1,18 @@
+
+{
+	"name": "homebridge-S7",
+	"version": "0.0.1",
+	"description": "Raspberry Pi S7 plugin for Homebridge (Snap7 backend): https://github.com/nfarina/homebridge",
+	"license": "",
+	"keywords": [
+		"homebridge-plugin"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/fade2metal/homebridge-S7.git" 
+	},
+	"engines": {
+		"node": ">=6.0.0",
+		"homebridge": ">=0.4.6"
+	}
+}
