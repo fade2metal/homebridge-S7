@@ -1,6 +1,6 @@
 
 {
-	"name": "homebridge-S7",
+	"name": "homebridge-s7",
 	"version": "0.0.1",
 	"description": "Raspberry Pi S7 plugin for Homebridge (Snap7 backend): https://github.com/nfarina/homebridge",
 	"license": "MIT",
