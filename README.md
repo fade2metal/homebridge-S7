@@ -11,7 +11,6 @@ Original plugin: [homebridge-script](https://github.com/xxcombat/homebridge-scri
 
 1. Install homebridge using: `npm install -g homebridge`
 2. Install this plugin by copying the github content to /usr/local/lib/node_modules into the folder "homebridge-S7"
-(That's because I don't know how to use the npm thing...)
 3. Install snap7 with this guide: http://simplyautomationized.blogspot.de/2014/12/raspberry-pi-getting-data-from-s7-1200.html
 4. Update your configuration file with code like the sample below
 
