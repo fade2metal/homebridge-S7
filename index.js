@@ -3,8 +3,6 @@ var Characteristic;
 
 var sys = require('sys');
     exec = require('child_process').exec;
-    assign = require('object-assign');
-    fileExists = require('file-exists');
 
 module.exports = function(homebridge) {
   Service = homebridge.hap.Service;
@@ -46,7 +44,7 @@ S7Accessory.prototype.setState = function(powerOn, callback) {
     }
     
 
-    exec('python /usr/local/lib/node_modules/homebridge-S7/S7.py' +' '+ ip +' '+ operator +' '+ value);
+    exec('python /usr/local/lib/node_modules/homebridge-s7/S7.py' +' '+ ip +' '+ operator +' '+ value);
     console.log (ip +' '+ operator +' '+ value)
     accessory.log('Set ' + accessory.name + ' to ' + state);
     callback(null);
@@ -63,7 +61,7 @@ S7Accessory.prototype.getState = function(callback) {
     callback(null, flagFile);
   }
   else {
-    exec('python /usr/local/lib/node_modules/homebridge-S7/S7.py'  +' '+ ip +' '+ operator +' '+ 'STATE', function (error, stdout, stderr) {
+    exec('python /usr/local/lib/node_modules/homebridge-s7/S7.py'  +' '+ ip +' '+ operator +' '+ 'STATE', function (error, stdout, stderr) {
       var cleanOut=stdout.trim().toLowerCase();
       accessory.log('State of ' + accessory.name + ' is: ' + cleanOut);
       callback(null, cleanOut == accessory.onValue);
