@@ -11,13 +11,7 @@ Script to make it easier: [S71200.py](https://github.com/SimplyAutomationized/ra
 (Requires node >=6.0.0)
 
 1. Install homebridge using: `npm install -g homebridge`
-<<<<<<< HEAD
 2. Install homebridge-S7 using: `sudo npm install -g homebridge-S7`
-=======
-<<<<<<< HEAD
->>>>>>> b8336f36dbc42e8833a4ab36af693b97e4f9f503
-=======
->>>>>>> 58a7d81937ca136b51720334c117c994d5ec97e6
 3. Install snap7 with this guide: http://simplyautomationized.blogspot.de/2014/12/raspberry-pi-getting-data-from-s7-1200.html
 4. Update your configuration file with code like the sample below
 
