@@ -21,7 +21,7 @@ Name | Value | Required | Notes
 ----------- | ------- | --------- | --------------
 `accessory` | "S7" | yes | Must be set to "S7" and is required
 `name` | _(custom)_ | yes | Name of accessory that will appear in homekit app and is required
-`on_value` | _(custom)_ | no (see note) | Used in conjunction with the state script. If using the state script this is the value that will be used to match against the state script output. If this value matches the output, then the accessory will be determined to be on. Required if using state script.
+`on_value` | _(custom)_ | no (see note) | Used in conjunction with the state script. If using the state script this is the value that will be used to match against the state script output. If this value matches the output, then the accessory will be determined to be on.
 `ip` | "192.168.178.2" | yes | Must be set to the IP of your S71200 PLC and is required
 `operator` | "MX0.0/QX0.0" | yes | Must be set to the operator you want to control. You can directly control an Output of the PLC if the Output isn't used in your PLC program. Or you can control a memory bit and use it as a virtual input to create your own logic code in the PLC.
 
