@@ -3,8 +3,8 @@ homebridge-S7
 
 Use a Siemens S7 PLC for switch on whatever you want.
 
-The plugin that this one is based on: [homebridge-script2](https://github.com/pponce/homebridge-script2).
-Original plugin: [homebridge-script](https://github.com/xxcombat/homebridge-script).
+The plugin that this one is based on: [homebridge-script2](https://github.com/pponce/homebridge-script2)
+Original plugin: [homebridge-script](https://github.com/xxcombat/homebridge-script)
 Script to make it easier: [S71200.py](https://github.com/SimplyAutomationized/raspberrypi/raw/master/S7-1200pi/S71200.py)
 
 ## Installation
