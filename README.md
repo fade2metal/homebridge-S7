@@ -5,12 +5,13 @@ Use a Siemens S7 PLC for switch on whatever you want.
 
 The plugin that this one is based on: [homebridge-script2](https://github.com/pponce/homebridge-script2).
 Original plugin: [homebridge-script](https://github.com/xxcombat/homebridge-script).
+Script to make it easier: [S71200.py](https://github.com/SimplyAutomationized/raspberrypi/raw/master/S7-1200pi/S71200.py)
 
 ## Installation
 (Requires node >=6.0.0)
 
 1. Install homebridge using: `npm install -g homebridge`
-2. Install this plugin using: `npm install -g homebridge-S7`
+2. Install homebridge-S7 using: `npm install -g homebridge-S7`
 3. Install snap7 with this guide: http://simplyautomationized.blogspot.de/2014/12/raspberry-pi-getting-data-from-s7-1200.html
 4. Update your configuration file with code like the sample below
 
