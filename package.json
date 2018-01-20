@@ -1,18 +1,107 @@
-
 {
-	"name": "homebridge-s7",
-	"version": "0.0.1",
-	"description": "Raspberry Pi S7 plugin for Homebridge (Snap7 backend): https://github.com/nfarina/homebridge",
-	"license": "MIT",
-	"keywords": [
-		"homebridge-plugin"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/fade2metal/homebridge-S7.git" 
-	},
-	"engines": {
-		"node": ">=6.0.0",
-		"homebridge": ">=0.4.6"
-	}
+  "_args": [
+    [
+      {
+        "raw": "homebridge-s7",
+        "scope": null,
+        "escapedName": "homebridge-s7",
+        "name": "homebridge-s7",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/David/node_modules/homebridge-s7"
+    ],
+    [
+      {
+        "raw": "homebridge-s7",
+        "scope": null,
+        "escapedName": "homebridge-s7",
+        "name": "homebridge-s7",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/usr/local/lib/node_modules"
+    ],
+    [
+      {
+        "raw": "homebridge-s7",
+        "scope": null,
+        "escapedName": "homebridge-s7",
+        "name": "homebridge-s7",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/usr/local/lib/node_modules"
+    ]
+  ],
+  "_from": "homebridge-s7",
+  "_id": "homebridge-s7@0.0.3",
+  "_inCache": true,
+  "_location": "/homebridge-s7",
+  "_nodeVersion": "6.12.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/homebridge-s7-0.0.3.tgz_1516393157154_0.97412857436575"
+  },
+  "_npmUser": {
+    "name": "fade2metal",
+    "email": "david.p91@live.de"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "homebridge-s7",
+    "scope": null,
+    "escapedName": "homebridge-s7",
+    "name": "homebridge-s7",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-s7/-/homebridge-s7-0.0.3.tgz",
+  "_shasum": "1fd472b8b0427e07ee5c0869c75510bddfcde8de",
+  "_shrinkwrap": null,
+  "_spec": "homebridge-s7",
+  "_where": "/usr/local/lib/node_modules",
+  "bugs": {
+    "url": "https://github.com/fade2metal/homebridge-S7/issues"
+  },
+  "dependencies": {},
+  "description": "Raspberry Pi S7 plugin for Homebridge (Snap7 backend): https://github.com/nfarina/homebridge",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "1fd472b8b0427e07ee5c0869c75510bddfcde8de",
+    "tarball": "https://registry.npmjs.org/homebridge-s7/-/homebridge-s7-0.0.3.tgz"
+  },
+  "engines": {
+    "homebridge": ">=0.4.6",
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/fade2metal/homebridge-S7#readme",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "fade2metal",
+      "email": "david.p91@live.de"
+    }
+  ],
+  "name": "homebridge-s7",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fade2metal/homebridge-S7.git"
+  },
+  "scripts": {},
+  "version": "0.0.7"
 }
